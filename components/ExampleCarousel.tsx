@@ -1,5 +1,5 @@
-import { SetStateAction, useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
+import { SetStateAction, useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
 
 interface IProp {
   data: any;
@@ -11,6 +11,7 @@ function ExampleCarousel({ data }: IProp) {
   const handleSelect = (selectedIndex: SetStateAction<number>, e: any) => {
     setIndex(selectedIndex);
   };
+  //test from other side
 
   return (
     <Carousel style={{ padding: `10vh`, borderRadius: `10px` }} activeIndex={index} onSelect={handleSelect}>
