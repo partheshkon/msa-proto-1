@@ -11,6 +11,7 @@ function ExampleCarousel({ data }: IProp) {
   const handleSelect = (selectedIndex: SetStateAction<number>, e: any) => {
     setIndex(selectedIndex);
   };
+  // hello world
 
   return (
     <Carousel style={{ padding: `10vh`, borderRadius: `10px` }} activeIndex={index} onSelect={handleSelect}>
